@@ -190,7 +190,7 @@
 
 .footer .politicas {
     width: 30%;
-    background-color: gray;
+    /* background-color: gray; */
     margin: auto;
     display:flex;
     flex-flow: row wrap;
