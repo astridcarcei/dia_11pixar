@@ -73,12 +73,18 @@
 	}
 }
 .header .nav .ul .li {
-
+    padding-right: 20px;
 }
 .header .nav .ul .li .a {
 font-family:"Cabin", sans-serif ;
 text-transform: uppercase;
 color: black;
+letter-spacing: 1px;
+opacity: 1;
+}
+.header .nav .ul .li .a:hover{
+    opacity: 0.5;
+
 }
 .main {
 
@@ -177,16 +183,20 @@ color: black;
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
-    gap: 15px;
-}
-
-.footer .redes .li {
+    gap: 15px; 
 
 }
-
-.footer .redes .li .a {
-
+.footer .redes .li{
+    opacity: 1;
+    transition: opacity 0.3s;
 }
+.footer .redes:hover .li{
+    opacity: 0.5;
+}
+.footer .redes .li:hover{
+    opacity: 1;
+}
+
 
 .footer .redes .li .a .img {
     width: 30px;
@@ -234,10 +244,14 @@ color: black;
 .Boton {
     margin: auto ;
     width: 100%;
-    max-width: 400px;
-    padding: 20px 40px;
+    max-width: 380px;
+    padding: 15px 20px;
     background-color: rgb(211, 211, 211);
     color:green;
-    border: 1px solid green;
-    
+    border: 1px solid rgb(44, 207, 8);  
+    text-align: center;
+}
+.Boton:hover {
+    background-color: rgb(44, 207, 8);
+    color: azure;
 }
